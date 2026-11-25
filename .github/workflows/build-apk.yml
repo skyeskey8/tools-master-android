@@ -25,8 +25,6 @@ jobs:
         with:
           gradle-version: '8.9'
 
-          - name: Check Gradle Projects
-        run: gradle projects
       - name: Check Gradle Projects
         run: gradle projects
 
