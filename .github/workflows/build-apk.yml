@@ -27,6 +27,8 @@ jobs:
 
           - name: Check Gradle Projects
         run: gradle projects
+      - name: Check Gradle Projects
+        run: gradle projects
 
       - name: Build APK
         run: gradle :app:assembleDebug
